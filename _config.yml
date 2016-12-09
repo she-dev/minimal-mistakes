@@ -87,14 +87,14 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://www.facebook.com/shedev.me/"
+  facebook         : "shedev.me"
   foursquare       :
   github           : "she-dev"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/heloameneses"
+  linkedin         : "heloameneses"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -104,7 +104,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UC6qJXi5uQctAMNDjLHsenWw"
+  youtube          : "channel/UC6qJXi5uQctAMNDjLHsenWw"
 
 
 # Reading Files
