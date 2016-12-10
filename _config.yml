@@ -67,10 +67,11 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.youtube.com/channel/UC6qJXi5uQctAMNDjLHsenWw"
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-85629190-1"
 
@@ -82,7 +83,7 @@ author:
   bio              : "Half-vulcan developer and tech entrepreneur in the making."
   location         : # "Somewhere"
   email            : "shedev.me@gmail.com"
-  uri              :
+  uri              : "https://she-dev.com/"
   bitbucket        :
   codepen          :
   dribbble         :
