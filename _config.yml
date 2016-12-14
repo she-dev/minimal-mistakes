@@ -11,7 +11,7 @@ title                    : "She Dev"
 title_separator          : "·"
 name                     : "Heloá Meneses"
 description              : "Lean development and great experience"
-url                      : "https://she-dev.com/"
+url                      : "https://she-dev.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "she-dev/she-dev.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -35,7 +35,7 @@ staticman:
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
-  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  path                   : "/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
@@ -67,7 +67,6 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.youtube.com/channel/UC6qJXi5uQctAMNDjLHsenWw"
 
 # Analytics
 analytics:
@@ -83,7 +82,7 @@ author:
   bio              : "Half-vulcan developer and tech entrepreneur in the making."
   location         : # "Somewhere"
   email            : "shedev.me@gmail.com"
-  uri              : "https://she-dev.com/"
+  uri              : "https://she-dev.com"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -105,7 +104,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : 
+  youtube          : "channel/UC6qJXi5uQctAMNDjLHsenWw"
 
 
 # Reading Files
