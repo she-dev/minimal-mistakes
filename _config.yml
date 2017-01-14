@@ -16,7 +16,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "she-dev/she-dev.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 100
 comments:
   provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -82,7 +82,7 @@ author:
   bio              : "React Native lady"
   location         : # "Somewhere"
   email            : "shedev.me@gmail.com"
-  uri              : "https://she-dev.com"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
