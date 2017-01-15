@@ -1,6 +1,6 @@
 ---
 title: What is closure in JavaScript?
-excerpt: 
+excerpt: Understanding the concept of closure, how to use it, what are its benefits, how to get access to this inside the inner function, how it can help problems with avoid global variables.
 modified:
 header:
 tags: 
@@ -12,7 +12,7 @@ This can cause problem if, for example, a variable is declared outside a functio
 
 The concept of closure is that you create a function and one or more inner functions inside it and allow access to the methods and variables of the outer function only through the inner functions, preventing manipulation of the variables and methods. 
 
-In the following example we're declaring myObject and initializing it by calling a function that defines a value variable and returns an object with two methods. The variable is always available to `increment` and `getValue` but it's hidden from the rest of the program outside the function scope.
+In the following example (taken from [JavaScript: The Good Parts](http://amzn.to/2jNNUs7)) we're declaring myObject and initializing it by calling a function that defines a value variable and returns an object with two methods. The variable is always available to `increment` and `getValue` but it's hidden from the rest of the program outside the function scope.
 
 ``` javascript
 var myObject = function () {

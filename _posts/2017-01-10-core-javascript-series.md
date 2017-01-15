@@ -7,10 +7,10 @@ tags:
 ---
 
 
-This is the introductory post of the Core JavaScript Review series. In it I'll share with you some concepts I've been studying on core JavaScript. I've been using the [JavaScript: The Good Parts](#) to guide my studies as this is book is recognized by many developers as an essential read for JavaScript programmers for its great quality. 
-I'm using the browser developer tools to practice the concepts and have a better grasp on the execution flow. I'm also using [Eloquent JavaScript](#) for exercises. You can read it online [here](http://eloquentjavascript.net/).
+This is the introductory post of the Core JavaScript Review series. In it I'll share with you some concepts I've been studying on core JavaScript. I've been using [JavaScript: The Good Parts](http://amzn.to/2jNNUs7) to guide my studies as this is book is recognized by many developers as an essential read for JavaScript programmers for its great quality. 
+I'm using the browser developer tools to practice the concepts and have a better grasp on the execution flow. I'm also using [Eloquent JavaScript](http://amzn.to/2ivy5p2) for exercises. You can read it online [here](http://eloquentjavascript.net/).
 
-I used the method described on the book [Soft Skills](#) by John Sonmez to learn quickly and in a way that I wouldn't forget it soon. This book is really great, I've read it many times and use it as reference when I need some advice on how to deal with a specific situation in my career.
+I used the method described on the book [Soft Skills](http://amzn.to/2jouHQO) by John Sonmez to learn quickly and in a way that I wouldn't forget it soon. This book is really great, I've read it many times and use it as reference when I need some advice on how to deal with a specific situation in my career.
 This series of posts is actually a part of this method, which consists of teaching. 
 
 I'll organize what I learned here and share it with you to help you and I understand these concepts better and also fill in any gaps in my knowledge. 
@@ -19,5 +19,5 @@ All the ideas are scattered on your brain when you are learning and then you hav
 Will you embark on this journey with me? Let's go!
 
 - [Arguments parameter and apply method](https://she-dev.com/arguments-apply-javascript/)
-- [What is closure?](https://she-dev.com/what-is-closure/)
+- [What is closure in JavaScript?](https://she-dev.com/what-is-closure-in-javascript/)
 
