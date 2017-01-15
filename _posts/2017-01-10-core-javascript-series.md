@@ -3,7 +3,7 @@ title: Core JavaScript series
 excerpt: In this series of posts I'm going to share what I learned reviewing core JavaScript concepts and experimenting, mostly using the book JavaScript - The Good Parts.
 modified:
 header:
-tags: javascript
+tags: 
 ---
 
 
@@ -19,4 +19,5 @@ All the ideas are scattered on your brain when you are learning and then you hav
 Will you embark on this journey with me? Let's go!
 
 - [Arguments parameter and apply method](https://she-dev.com/arguments-apply-javascript/)
+- [What is closure?](https://she-dev.com/what-is-closure/)
 
