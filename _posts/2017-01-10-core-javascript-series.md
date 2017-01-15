@@ -17,3 +17,6 @@ I'll organize what I learned here and share it with you to help you and I unders
 When you teach something you have to reorganize that content in your brain to be able to explain it. It's the time when you can find out if you really understood what you learned.
 All the ideas are scattered on your brain when you are learning and then you have to structure it in an order that makes sense to the reader/listener and put it into your own words. It's definitely not easy but you only grow when you're challenged.
 Will you embark on this journey with me? Let's go!
+
+- [Arguments parameter and apply method](https://she-dev.com/arguments-apply-javascript/)
+
