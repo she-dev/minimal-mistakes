@@ -1,6 +1,6 @@
 ---
 title: Core JavaScript series
-excerpt: In this series of posts I'm going to share what I learned reviewing core JavaScript concepts and experimenting, mostly using the book JavaScript: The Good Parts.
+excerpt: In this series of posts I'm going to share what I learned reviewing core JavaScript concepts and experimenting, mostly using the book JavaScript - The Good Parts.
 modified:
 header:
 tags: javascript

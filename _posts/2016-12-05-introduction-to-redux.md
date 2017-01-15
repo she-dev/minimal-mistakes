@@ -1,7 +1,7 @@
 ---
 title: Introduction to Redux
 excerpt: Quick introduction to Redux - a predictable state container for JavaScript apps.
-modified:
+modified: 2017-01-14
 header:
 tags:
 ---
@@ -34,50 +34,54 @@ The full code of this app is available on [Github](https://github.com/she-dev/Te
 
 ##### Use of store and provider
 
-	const App = () => {
-	  return (
-	    <Provider store={createStore(reducers)}>
-	      <View>
-	        <LibraryList />
-	      </View>
-	    </Provider>
-	  );
-	};
+~~~javascript
+const App = () => {
+	return (
+		<Provider store={createStore(reducers)}>
+			<View>
+				<LibraryList />
+			</View>
+		</Provider>
+	);
+};
+~~~
 
 Provider comes from [react-redux](https://github.com/reactjs/react-redux) library to integrate React and Redux.
 
 ##### Action
-
-	export const selectLibrary = (libraryId) => {
-	  return {
-	    type: 'select_library',
-	    payload: libraryId
-	  };
-	};
+~~~javascript
+export const selectLibrary = (libraryId) => {
+  return {
+    type: 'select_library',
+    payload: libraryId
+  };
+};
+~~~
 
 ##### Calling the action
-
-	render() {
-	    return (
-	      <TouchableWithoutFeedback
-	        onPress={() => this.props.selectLibrary(id)}
-	      />  
-	    );
-	  }
+~~~javascript
+render() {
+  return (
+    <TouchableWithoutFeedback
+      onPress={() => this.props.selectLibrary(id)}
+    />  
+  );
+}
+~~~
 
 selectLibrary action is available at this.props because the actions are connected via *mapStateToProps*, which is subject for another post.
 
 ##### Reducer
-
-    export default (state = null, action) => {
-      switch (action.type) {
-        case 'select_library':
-          return action.payload;
-        default:
-          return state;
-      }
-    };
-    
+~~~javascript
+export default (state = null, action) => {
+  switch (action.type) {
+    case 'select_library':
+      return action.payload;
+    default:
+      return state;
+  }
+};
+~~~
 There's only one action and its type is *select_library*. If a different *action.type* is received the reducer will return the current state of the app as default.
 
 So, what did you think of Redux? It may sound complicated with all these new words but it makes life a lot simpler when your app grows in complexity. Let me know your experience with it if you decide to give Redux a try.
