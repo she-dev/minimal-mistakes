@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "dev_she"
+  username               : "_shedev"
 facebook:
   username               :
   app_id                 :
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Heloá Meneses"
   avatar           : "assets/images/author.png"
-  bio              : "React Native lady"
+  bio              : "Powered by JavaScript and React"
   location         : # "Somewhere"
   email            : 
   uri              : 
@@ -100,11 +100,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "dev_she"
+  twitter          : "_shedev"
   vine             :
   weibo            :
   xing             :
-  youtube          : "channel/UC6qJXi5uQctAMNDjLHsenWw"
+  youtube          :
 
 
 # Reading Files
